@@ -12,6 +12,6 @@ public:
 
             numIndexMap[nums[i]] = i;
         }
-        throw invalid_argument("target doesn't exist");
+        return {};
     }
 };
