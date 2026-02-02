@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int> const& nums, int const target) {
         unordered_map<int, int> numIndexMap;
 
         for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
@@ -12,6 +12,7 @@ public:
 
             numIndexMap[nums[i]] = i;
         }
+
         return {};
     }
 };
