@@ -26,7 +26,7 @@ public:
 
 
 
-        for (int i = 0; i < (int)m.size(); i++)
+        for (int i = 0; i < (int)m.size() / 2; i++)
         {
             int a      = m[i];
             int b = m[(int)m.size() - i - 1];
