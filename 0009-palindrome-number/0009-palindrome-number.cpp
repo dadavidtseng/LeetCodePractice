@@ -8,11 +8,13 @@ public:
 
         int reversed = 0;
 
+        // reversed * 10 moves the number one digit left.
+        // x % 10 gets the last digit.
         while (x > reversed)
         {
             reversed = reversed * 10 + x % 10;
 
-            x /= 10;
+            x /= 10;    // Get rid of the last digit and move the number one digit right.
         }
 
         return x == reversed || x == reversed / 10;
