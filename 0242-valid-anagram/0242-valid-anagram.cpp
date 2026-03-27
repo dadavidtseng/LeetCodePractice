@@ -5,18 +5,13 @@ public:
             return false;
         }
 
-        unordered_map<char*, int> counter;
+        array<int, 26> counter{};
 
-        for (int i = 0; i < s.size(); i++) {
-            int pos = t.find(s[i]);
-
-            if (pos != string::npos) {
-                t.erase(pos, 1);
-            } else {
-                return false;
-            }
+        for (int i = 0; i < static_cast<int>(s.size()); ++i) {
+            counter[s[i] - 'a']++;
+            counter[t[i] - 'a']--;
         }
 
-        return true;
+        return counter == array<int, 26>{};
     }
 };
