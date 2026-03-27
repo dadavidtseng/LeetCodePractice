@@ -1,20 +1,15 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        bool bIsDuplicate = false;
-
         unordered_set<int> container;
 
         for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
-
-            if (container.find(nums[i]) != container.end()) {
-                bIsDuplicate = true;
-                return bIsDuplicate;
+            // bool value set to true if and only if the insertion took place
+            if (!container.insert(nums[i]).second) {
+                return true;
             }
-
-            container.insert(nums[i]);
         }
 
-        return bIsDuplicate;
+        return false;
     }
 };
