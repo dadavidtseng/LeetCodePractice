@@ -30,6 +30,7 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
@@ -47,4 +48,8 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
