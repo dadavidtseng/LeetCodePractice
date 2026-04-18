@@ -22,6 +22,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
 ## Sorting
 |  |
 | ------- |
@@ -57,4 +58,12 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0020-valid-parentheses) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
