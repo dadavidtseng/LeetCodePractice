@@ -63,6 +63,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
+| [0338-counting-bits](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0338-counting-bits) |
 ## Memoization
 |  |
 | ------- |
@@ -71,4 +72,5 @@
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
