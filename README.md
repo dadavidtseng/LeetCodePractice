@@ -14,6 +14,7 @@
 | [0054-spiral-matrix](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 ## Hash Table
@@ -76,6 +77,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0338-counting-bits) |
 ## Memoization
 |  |
