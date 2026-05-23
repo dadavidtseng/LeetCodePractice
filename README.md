@@ -55,6 +55,7 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -64,6 +65,7 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 ## Two Pointers
 |  |
 | ------- |
@@ -111,4 +113,12 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0206-reverse-linked-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
