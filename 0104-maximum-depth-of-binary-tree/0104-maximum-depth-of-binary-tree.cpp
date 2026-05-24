@@ -17,8 +17,8 @@ public:
             return 0;
         }
 
-        int leftDepth = 1 + maxDepth(root->left);
-        int rightDepth = 1 + maxDepth(root->right);
+        int const leftDepth = 1 + maxDepth(root->left);
+        int const rightDepth = 1 + maxDepth(root->right);
 
         return std::max(leftDepth, rightDepth);
     }
