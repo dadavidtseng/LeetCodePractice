@@ -1,27 +1,19 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
+        int const size = static_cast<int>(nums.size());
         vector<int> result;
-        vector<int> prefixResult;
-        vector<int> suffixResult;
         int prefix = 1;
         int suffix = 1;
 
-        for (int i = 0; i < nums.size(); ++i) {
-            prefixResult.push_back(prefix);
+        for (int i = 0; i < size; ++i) {
+            result.push_back(prefix);
             prefix *= nums[i];
         }
 
-        for (int i = nums.size() - 1; i >= 0; --i) {
-            suffixResult.push_back(suffix);
+        for (int i = size - 1; i >= 0; --i) {
+            result[i] *= suffix;
             suffix *= nums[i];
-        }
-
-        std::reverse(suffixResult.begin(), suffixResult.end());
-        result.reserve(nums.size());
-
-        for (int i = 0; i < nums.size(); ++i) {
-            result.push_back(prefixResult[i] * suffixResult[i]);
         }
 
         return result;
