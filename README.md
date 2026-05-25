@@ -12,6 +12,7 @@
 | [0001-two-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0054-spiral-matrix) |
@@ -77,6 +78,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
