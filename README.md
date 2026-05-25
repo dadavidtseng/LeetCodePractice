@@ -10,6 +10,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
 | [0048-rotate-image](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0054-spiral-matrix) |
@@ -43,6 +44,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0242-valid-anagram) |
@@ -86,6 +88,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0141-linked-list-cycle) |
 ## Stack
