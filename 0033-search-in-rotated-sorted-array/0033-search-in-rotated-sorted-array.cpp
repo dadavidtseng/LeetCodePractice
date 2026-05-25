@@ -48,6 +48,7 @@ public:
             }
         }
 
+        // return -1 if nothing has been found
         return -1;
     }
 };
