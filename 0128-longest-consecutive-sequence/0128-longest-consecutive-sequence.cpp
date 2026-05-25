@@ -2,16 +2,13 @@ class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
         unordered_set const numSet(nums.begin(), nums.end());
-        int                 longestLength = 0;
+        int longestLength = 0;
 
-        for (int num : numSet)
-        {
+        for (int num : numSet) {
             int length = 0;
 
-            if (!numSet.contains(num - 1))
-            {
-                while (numSet.contains(num + length))
-                {
+            if (!numSet.contains(num - 1)) {
+                while (numSet.contains(num + length)) {
                     length++;
                 }
             }
