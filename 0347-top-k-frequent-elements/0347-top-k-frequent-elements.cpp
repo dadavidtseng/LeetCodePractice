@@ -21,13 +21,13 @@ public:
 
         for (int i = static_cast<int>(buckets.size()) - 1; i > 0; --i) {
             // result is full, break
-            if (std::cmp_equal(result.size(), k)) {
+            if (static_cast<int>(result.size()) == k) {
                 break;
             }
 
             for (int j = static_cast<int>(buckets[i].size()) - 1; j >= 0; --j) {
                 // result is full, break
-                if (std::cmp_equal(result.size(), k)) {
+                if (static_cast<int>(result.size()) == k) {
                     break;
                 }
 
