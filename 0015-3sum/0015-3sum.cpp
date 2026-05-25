@@ -2,28 +2,24 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         int const numSize = static_cast<int>(nums.size());
-        sort(nums.begin(), nums.end());
+        sort(nums.begin(),
+             nums.end()); // sort the vector so we can know if it's duplicated
         vector<vector<int>> result;
-        vector<int> valid;
 
         for (int i = 0; i < numSize; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
 
-            int left = i + 1;
-            int right = numSize - 1;
+            int left = i + 1;        // left pointer
+            int right = numSize - 1; // right pointer
 
             while (left < right) {
                 int const sum = nums[i] + nums[left] + nums[right];
 
                 if (sum == 0) {
                     // found one! add it, then skip duplicates for both pointers
-                    valid.push_back(nums[i]);
-                    valid.push_back(nums[left]);
-                    valid.push_back(nums[right]);
-                    result.push_back(valid);
-                    valid.clear();
+                    result.push_back({nums[i], nums[left], nums[right]});
                     left++;
                     right--;
 
