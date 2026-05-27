@@ -83,6 +83,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
@@ -92,6 +93,7 @@
 | [0098-validate-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 ## Binary Tree
@@ -103,6 +105,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Two Pointers
@@ -168,6 +171,7 @@
 | [0100-same-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
