@@ -34,21 +34,11 @@ public:
         }
 
         TreeNode const* cur = node;
-        int leftSum = 0;
-        int rightSum = 0;
 
-        // if current node's left child exists
-        // get the best chain from the left subtree, ignore if negative
-        // leftSum is equal to the outcome if it's greater than 0
-        if (cur->left != nullptr) {
-            leftSum = max(0, maxPathSum(cur->left, sum));
-        }
-        // if current node's right child exists
-        // the best chain from the right subtree, ignore if negative
-        // rightSum is equal to the outcome if it's greater than 0
-        if (cur->right != nullptr) {
-            rightSum = max(0, maxPathSum(cur->right, sum));
-        }
+        // get the best chain from the left/right subtree, ignore if negative
+        // leftSum/rightSum is equal to the outcome if it's greater than 0
+        int const leftSum = max(0, maxPathSum(cur->left, sum));
+        int const rightSum = max(0, maxPathSum(cur->right, sum));
 
         // update the passed in sum
         // if leftSum + cur->val + rightSum is greater than sum
