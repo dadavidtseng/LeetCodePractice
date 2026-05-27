@@ -11,14 +11,39 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        ListNode* result = nullptr;
+        int n = static_cast<int>(lists.size());
 
-        // merge two lists as we iterate through lists
-        for (int i = 0; i < static_cast<int>(lists.size()); ++i) {
-            result = mergeTwoLists(result, lists[i]);
+        // return nullptr if the lists is empty
+        if (n == 0)
+            return nullptr;
+
+        // exit when n == 1
+        while (n > 1) {
+            // reset newSize after a merge
+            int newSize = 0;
+
+            // iterate the lists with 2 steps
+            for (int i = 0; i < n; i += 2) {
+                // odd lists, store the last list back to lists
+                if (i + 1 == n) {
+                    lists[newSize] = lists[i];
+                } else {
+                    // merge two lists and store back to lists[newSize]
+                    lists[newSize] = mergeTwoLists(lists[i], lists[i + 1]);
+                }
+
+                // calculate newSize
+                // lists will be shrunk after every operation
+                newSize++;
+            }
+
+            // update the n with newSize
+            // this will shrink size of the lists
+            n = newSize;
         }
 
-        return result;
+        // return the merged list
+        return lists[0];
     }
 
     ListNode* mergeTwoLists(ListNode* listA, ListNode* listB) {
