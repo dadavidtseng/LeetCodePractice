@@ -25,6 +25,14 @@ public:
     }
 
     bool search(string word) {
+        Trie const* node = traverse(word);
+
+        return node == nullptr ? false : node->isEnd;
+    }
+
+    bool startsWith(string prefix) { return traverse(prefix) != nullptr; }
+
+    Trie* traverse(string const& word) {
         // current node in trie
         Trie* node = this;
 
@@ -34,34 +42,13 @@ public:
 
             // if next node is empty
             if (node->children[idx] == nullptr) {
-                return false;
+                return nullptr;
             }
 
             // advance to next node
             node = node->children[idx];
         }
-
-        return node->isEnd;
-    }
-
-    bool startsWith(string prefix) {
-        // current node in trie
-        Trie* node = this;
-
-        // iterate through the word string
-        for (int i = 0; i < static_cast<int>(prefix.length()); i++) {
-            int const idx = prefix[i] - 'a';
-
-            // if next node is empty
-            if (node->children[idx] == nullptr) {
-                return false;
-            }
-
-            // advance to next node
-            node = node->children[idx];
-        }
-
-        return true;
+        return node;
     }
 
     Trie* children[26] = {nullptr};
