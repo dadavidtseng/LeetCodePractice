@@ -21,20 +21,16 @@ public:
         return result;
     }
 
-    static string serialize(TreeNode const* node, string& result) {
+    static void serialize(TreeNode const* node, string& result) {
         if (node == nullptr) {
-            result.append("N");
-            result.append(",");
-            return result;
+            result.append("N,");
+            return;
         }
 
-        result.append(to_string(node->val));
-        result.append(",");
+        result += to_string(node->val) + ",";
 
         serialize(node->left, result);
         serialize(node->right, result);
-
-        return result;
     }
 
     // Decodes your encoded data to tree.
@@ -43,32 +39,22 @@ public:
             return nullptr;
         }
 
-        TreeNode* result = nullptr;
-
         stringstream ss(data);
-        string temp;
-        char constexpr delim = ',';
-        vector<string> tokens;
-        int currentIdx = 0;
 
-        while (getline(ss, temp, delim)) {
-            tokens.push_back(temp);
-        }
-
-        return deserialize(tokens, currentIdx);
+        return deserialize(ss);
     }
 
-    static TreeNode* deserialize(vector<string>& tokens, int& index) {
-        TreeNode* result = nullptr;
+    static TreeNode* deserialize(stringstream& ss) {
+        string token;
+        getline(ss, token, ',');
 
-        if (tokens[index] == "N") {
-            index++;
-        } else {
-            result = new TreeNode(stoi(tokens[index]));
-            index++;
-            result->left = deserialize(tokens, index);
-            result->right = deserialize(tokens, index);
+        if (token == "N") {
+            return nullptr;
         }
+
+        TreeNode* result = new TreeNode(stoi(token));
+        result->left = deserialize(ss);
+        result->right = deserialize(ss);
 
         return result;
     }
