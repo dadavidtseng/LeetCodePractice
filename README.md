@@ -13,6 +13,7 @@
 | [0011-container-with-most-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0054-spiral-matrix) |
@@ -252,4 +253,8 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
