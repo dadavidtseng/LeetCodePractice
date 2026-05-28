@@ -65,6 +65,7 @@
 | [0076-minimum-window-substring](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0242-valid-anagram) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
 |  |
@@ -86,6 +87,7 @@
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
 |  |
@@ -109,6 +111,7 @@
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Two Pointers
 |  |
@@ -177,6 +180,7 @@
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
@@ -185,6 +189,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## String Matching
 |  |
 | ------- |
@@ -232,4 +237,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0023-merge-k-sorted-lists) |
+## Design
+|  |
+| ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 <!---LeetCode Topics End-->
