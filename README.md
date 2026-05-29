@@ -59,6 +59,7 @@
 | [0217-contains-duplicate](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
@@ -130,6 +131,7 @@
 | [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0143-reorder-list) |
+| [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 ## Stack
 |  |
 | ------- |
@@ -214,6 +216,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0023-merge-k-sorted-lists) |
+| [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -254,6 +257,7 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Trie
 |  |
@@ -267,4 +271,8 @@
 | [0039-combination-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0212-word-search-ii) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
