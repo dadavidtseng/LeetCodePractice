@@ -23,18 +23,20 @@ class Solution {
 public:
     Node* cloneGraph(Node* node) {
         unordered_map<int, Node*>
-            visited; // a lookup map for node's value and a pointer to that node
+            cloned; // a lookup map for node's value and a pointer to that node
         queue<Node*> q; // a queue for traversing the graph
 
-        // return empty visited map if this node is nullptr
+        // return empty graph if this node is nullptr
         if (node == nullptr) {
             return nullptr;
         }
 
-        // start from the root node
+        // 1. Push the original root node into queue to for while loop later
+        // 2. Create the clone node
+        // 3. Store the clone node into cloned map
         q.push(node);
         Node* clone = new Node(node->val);
-        visited[clone->val] = clone;
+        cloned[clone->val] = clone;
 
         // exit when we've exhausted the graph
         while (!q.empty()) {
@@ -43,21 +45,26 @@ public:
             Node const* cur = q.front();
             q.pop();
 
-            // iterate through current node's neighbors
+            // iterate through original current node's neighbors
             for (int i = 0; i < static_cast<int>(cur->neighbors.size()); ++i) {
                 Node* neighbor = cur->neighbors[i];
 
-                // if we haven't visited this neighbor node
-                // 1. store it into visited map
-                // 2. push it into the queue for next call
-                if (!visited.contains(neighbor->val)) {
+                // if we haven't cloned this neighbor node in the cloned map
+                // 1. Create a cloneNeighbor node using original neighbor's
+                // value
+                // 2. Store cloneNeighbor into cloned map
+                // 3. Push neighbor into the queue for next call
+                // Note that cloned map is for cloning node
+                if (!cloned.contains(neighbor->val)) {
                     Node* cloneNeighbor = new Node(neighbor->val);
 
-                    visited[cloneNeighbor->val] = cloneNeighbor;
+                    cloned[cloneNeighbor->val] = cloneNeighbor;
                     q.push(neighbor);
                 }
 
-                visited[cur->val]->neighbors.push_back(visited[neighbor->val]);
+                // 4. Store the cloned neighbor node into cloned node's
+                // neighbors
+                cloned[cur->val]->neighbors.push_back(cloned[neighbor->val]);
             }
         }
 
