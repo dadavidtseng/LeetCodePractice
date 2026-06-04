@@ -35,6 +35,7 @@
 | [0347-top-k-frequent-elements](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0435-non-overlapping-intervals) |
+| [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -120,6 +121,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
+| [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
 ## Binary Tree
 |  |
 | ------- |
