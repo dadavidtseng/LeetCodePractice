@@ -1,62 +1,28 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        unordered_set<char> s;
+        unordered_set<char> rowSet[9];
+        unordered_set<char> colSet[9];
+        unordered_set<char> boxSet[9];
 
-        for (char i = 0; i < 9; ++i) {
-            for (char j = 0; j < 9; ++j) {
-                if (board[i][j] == '.') {
+        for (int row = 0; row < 9; ++row) {
+            for (int col = 0; col < 9; ++col) {
+                char c = board[row][col];
+
+                if (c == '.') {
                     continue;
                 }
 
-                if (!s.contains(board[i][j])) {
-                    s.insert(board[i][j]);
+                int const boxIdx = (row / 3) * 3 + col / 3;
 
-                    continue;
+                if (rowSet[row].contains(c) || colSet[col].contains(c) ||
+                    boxSet[boxIdx].contains(c)) {
+                    return false;
                 }
 
-                return false;
-            }
-
-            s.clear();
-        }
-
-        for (char i = 0; i < 9; ++i) {
-            for (char j = 0; j < 9; ++j) {
-                if (board[j][i] == '.') {
-                    continue;
-                }
-
-                if (!s.contains(board[j][i])) {
-                    s.insert(board[j][i]);
-
-                    continue;
-                }
-
-                return false;
-            }
-
-            s.clear();
-        }
-
-        for (char i = 0; i < 9; i += 3) {
-            for (char j = 0; j < 9; j += 3) {
-                for (char x = i; x < i + 3; ++x) {
-                    for (char y = j; y < j + 3; ++y) {
-                        if (board[x][y] == '.') {
-                            continue;
-                        }
-
-                        if (!s.contains(board[x][y])) {
-                            s.insert(board[x][y]);
-                            continue;
-                        }
-
-                        return false;
-                    }
-                }
-
-                s.clear();
+                rowSet[row].insert(c);
+                colSet[col].insert(c);
+                boxSet[boxIdx].insert(c);
             }
         }
 
