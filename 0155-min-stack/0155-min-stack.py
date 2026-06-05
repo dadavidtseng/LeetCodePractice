@@ -19,9 +19,6 @@ class MinStack:
     def getMin(self) -> int:
         return self.cache_min[-1]
 
-    v: List[int]
-    cache_min: List[int]
-
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
