@@ -15,6 +15,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0053-maximum-subarray) |
@@ -146,6 +147,7 @@
 | [0011-container-with-most-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0143-reorder-list) |
@@ -155,10 +157,12 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0143-reorder-list) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
@@ -321,4 +325,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0207-course-schedule) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
