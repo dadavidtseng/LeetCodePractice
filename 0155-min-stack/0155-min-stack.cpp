@@ -6,7 +6,7 @@ public:
     }
 
     void push(int value) {
-        if (cacheMin.empty() || value <= cacheMin[cacheMin.size() - 1]) {
+        if (cacheMin.empty() || value <= cacheMin.back()) {
             cacheMin.push_back(value);
         }
 
@@ -14,7 +14,7 @@ public:
     }
 
     void pop() {
-        if (v.back() == cacheMin[cacheMin.size() - 1]) {
+        if (v.back() == cacheMin.back()) {
             cacheMin.pop_back();
         }
 
@@ -23,7 +23,7 @@ public:
 
     int top() { return v[v.size() - 1]; }
 
-    int getMin() { return cacheMin[cacheMin.size() - 1]; }
+    int getMin() { return cacheMin.back(); }
 
     vector<int> v;
     vector<int> cacheMin;
