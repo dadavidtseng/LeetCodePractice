@@ -1,12 +1,13 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        int result = 0;
+        int result = stoi(tokens[0]);
         stack<string> s;
-if (tokens.size()==1)
-        {
-            return stoi(tokens[0]);
+
+        if (tokens.size() == 1) {
+            return result;
         }
+
         for (int i = 0; i < tokens.size(); ++i) {
             if (tokens[i] == "+") {
                 int a = stoi(s.top());
