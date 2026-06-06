@@ -1,11 +1,8 @@
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
-        result = int(tokens[0])
+        result = 0
         tokens_size = len(tokens)
         s = []
-
-        if tokens_size == 1:
-            return result
 
         for i in range(tokens_size):
             if tokens[i] == "+":
@@ -29,6 +26,8 @@ class Solution:
                 result = int(b / a)
                 s.append(result)
             else:
-                s.append(int(tokens[i]))
+                t = int(tokens[i])
+                result = t
+                s.append(t)
 
         return result
