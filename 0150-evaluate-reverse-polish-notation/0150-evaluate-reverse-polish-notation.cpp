@@ -1,13 +1,9 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        int result = stoi(tokens[0]);
+        int result = 0;
         int const tokensSize = static_cast<int>(tokens.size());
         stack<int> s;
-
-        if (tokensSize == 1) {
-            return result;
-        }
 
         for (int i = 0; i < tokensSize; ++i) {
             if (tokens[i] == "+") {
@@ -39,7 +35,9 @@ public:
                 result = (b / a);
                 s.push(result);
             } else {
-                s.push(stoi(tokens[i]));
+                int t = stoi(tokens[i]);
+                result = t;
+                s.push(t);
             }
         }
 
