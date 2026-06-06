@@ -2,43 +2,44 @@ class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
         int result = stoi(tokens[0]);
-        stack<string> s;
+        int const tokensSize = static_cast<int>(tokens.size());
+        stack<int> s;
 
-        if (tokens.size() == 1) {
+        if (tokensSize == 1) {
             return result;
         }
 
-        for (int i = 0; i < tokens.size(); ++i) {
+        for (int i = 0; i < tokensSize; ++i) {
             if (tokens[i] == "+") {
-                int a = stoi(s.top());
+                int const a = s.top();
                 s.pop();
-                int b = stoi(s.top());
+                int const b = s.top();
                 s.pop();
                 result = (b + a);
-                s.push(std::to_string((b + a)));
+                s.push(result);
             } else if (tokens[i] == "-") {
-                int a = stoi(s.top());
+                int const a = s.top();
                 s.pop();
-                int b = stoi(s.top());
+                int const b = s.top();
                 s.pop();
                 result = (b - a);
-                s.push(std::to_string((b - a)));
+                s.push(result);
             } else if (tokens[i] == "*") {
-                int a = stoi(s.top());
+                int const a = s.top();
                 s.pop();
-                int b = stoi(s.top());
+                int const b = s.top();
                 s.pop();
                 result = (b * a);
-                s.push(std::to_string((b * a)));
+                s.push(result);
             } else if (tokens[i] == "/") {
-                int a = stoi(s.top());
+                int const a = s.top();
                 s.pop();
-                int b = stoi(s.top());
+                int const b = s.top();
                 s.pop();
                 result = (b / a);
-                s.push(std::to_string((b / a)));
+                s.push(result);
             } else {
-                s.push(tokens[i]);
+                s.push(stoi(tokens[i]));
             }
         }
 
