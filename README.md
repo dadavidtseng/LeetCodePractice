@@ -28,6 +28,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0200-number-of-islands) |
@@ -63,6 +64,7 @@
 | [0009-palindrome-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0371-sum-of-two-integers) |
 ## Sorting
@@ -159,6 +161,7 @@
 | [0020-valid-parentheses](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0155-min-stack) |
 ## Dynamic Programming
 |  |
