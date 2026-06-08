@@ -40,6 +40,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0739-daily-temperatures) |
 ## Hash Table
 |  |
 | ------- |
@@ -163,6 +164,7 @@
 | [0143-reorder-list](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0739-daily-temperatures) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -334,4 +336,5 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
