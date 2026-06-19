@@ -3,9 +3,13 @@ class Solution:
         m = defaultdict(int)
         result = []
 
-        for n in nums:
-            m[n] += 1
+        for num in nums:
+            m[num] += 1
+        
+        for key, freq in m.items():
+            heapq.heappush(result, (freq, key))
+            
+            if len(result) > k:
+                heapq.heappop(result)
 
-        m = sorted(m, key=lambda x: m[x], reverse=True)
-
-        return m[:k]
+        return [item[1] for item in result]
