@@ -1,11 +1,15 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        result: defaultdict[str, list[str]] = defaultdict(list)
+        result: defaultdict[tuple[int, ...], list[str]] = defaultdict(list)
 
-        # Iterate through strs and store the sorted_s as key with s as value in the map
+        # Iterate through strs
         for s in strs:
-            sorted_s = "".join(sorted(s))
-            result[sorted_s].append(s)
+            count = [0] * 26
+            # For every c in s, count the frequency of the c
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            # At tuple(count), push s into the map
+            result[tuple(count)].append(s)
 
-        # Convert result from defaultdict[str, list[str]] to List[List[str]]
+        # Convert result from defaultdict[tuple[int, ...], list[str]] to List[List[str]]
         return list(result.values())
