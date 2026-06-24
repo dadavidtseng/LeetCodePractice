@@ -1,40 +1,40 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        // stores num(int), frequency(int)
-        unordered_map<int, int> container(nums.size());
+        // Create the frequency map
+        unordered_map<int, int> m(nums.size());
 
+        // Iterate through nums and increment the frequency for nums[i]
         for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
-            container[nums[i]]++;
+            m[nums[i]]++;
         }
 
-        // creates buckets
+        // Create buckets
+        // Note that we're using nums.size() + 1 because we want 0 to
+        // nums.size()
         vector<vector<int>> buckets(nums.size() + 1);
 
-        // stores num in buckets based on frequency
-        for (auto [num, frequency] : container) {
-            buckets[frequency].push_back(num);
+        // Store num in buckets based on frequency
+        for (auto const& [num, freq] : m) {
+            buckets[freq].push_back(num);
         }
 
-        // creates result
         vector<int> result;
 
-        for (int i = static_cast<int>(buckets.size()) - 1; i > 0; --i) {
-            // result is full, break
-            if (static_cast<int>(result.size()) == k) {
-                break;
-            }
-
-            for (int j = static_cast<int>(buckets[i].size()) - 1; j >= 0; --j) {
-                // result is full, break
-                if (static_cast<int>(result.size()) == k) {
-                    break;
-                }
-
+        // Iterate through buckets and push every num in each bucket to result
+        for (int i = static_cast<int>(buckets.size()) - 1; i >= 0; --i) {
+            for (int j = 0; j < static_cast<int>(buckets[i].size()); ++j) {
                 result.push_back(buckets[i][j]);
+
+                // Return result if result.size() equals to k
+                if (std::cmp_equal(result.size(), k)) {
+                    return result;
+                }
             }
         }
 
+        // This will never be reached since
+        // k is in the range [1, the number of unique elements in the array].
         return result;
     }
 };
