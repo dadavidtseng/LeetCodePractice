@@ -2,7 +2,8 @@ class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
         // Create the frequency map
-        unordered_map<int, int> m(nums.size());
+        unordered_map<int, int> m;
+        m.reserve(nums.size());
 
         // Iterate through nums and increment the frequency for nums[i]
         for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
@@ -12,7 +13,8 @@ public:
         // Create buckets
         // Note that we're using nums.size() + 1 because we want 0 to
         // nums.size()
-        vector<vector<int>> buckets(nums.size() + 1);
+        vector<vector<int>> buckets;
+        buckets.resize(nums.size() + 1);
 
         // Store num in buckets based on frequency
         for (auto const& [num, freq] : m) {
@@ -20,6 +22,7 @@ public:
         }
 
         vector<int> result;
+        result.reserve(k);
 
         // Iterate through buckets and push every num in each bucket to result
         for (int i = static_cast<int>(buckets.size()) - 1; i >= 0; --i) {
