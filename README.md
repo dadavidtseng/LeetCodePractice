@@ -43,6 +43,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0739-daily-temperatures) |
+| [0875-koko-eating-bananas](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0875-koko-eating-bananas) |
 ## Hash Table
 |  |
 | ------- |
@@ -133,6 +134,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0875-koko-eating-bananas) |
 ## Binary Tree
 |  |
 | ------- |
