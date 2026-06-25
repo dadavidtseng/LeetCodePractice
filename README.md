@@ -62,6 +62,7 @@
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0424-longest-repeating-character-replacement) |
+| [0981-time-based-key-value-store](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
 | ------- |
@@ -98,6 +99,7 @@
 | [0242-valid-anagram](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0424-longest-repeating-character-replacement) |
+| [0981-time-based-key-value-store](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0981-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -135,6 +137,7 @@
 | [0268-missing-number](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0875-koko-eating-bananas) |
+| [0981-time-based-key-value-store](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0981-time-based-key-value-store) |
 ## Binary Tree
 |  |
 | ------- |
@@ -314,6 +317,7 @@
 | [0211-design-add-and-search-words-data-structure](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0981-time-based-key-value-store](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0981-time-based-key-value-store) |
 ## Trie
 |  |
 | ------- |
