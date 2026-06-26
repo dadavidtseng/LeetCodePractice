@@ -1,6 +1,9 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        if len(s1) > len(s2):
+        s1_size = len(s1)
+        s2_size = len(s2)
+
+        if s1_size > s2_size:
             return False
 
         freq = {}
@@ -17,8 +20,8 @@ class Solution:
                 if freq[c] == 0:
                     matched += 1
 
-            if i >= len(s1):
-                left = s2[i - len(s1)]
+            if i >= s1_size:
+                left = s2[i - s1_size]
                 if left in freq:
                     if freq[left] == 0:
                         matched -= 1
