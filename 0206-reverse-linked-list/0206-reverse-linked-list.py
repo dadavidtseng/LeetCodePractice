@@ -8,7 +8,7 @@ class Solution:
         if head is None:
             return None
 
-        new_head = head
+        new_head: Optional[ListNode] = head
 
         if head.next:
             new_head = self.reverseList(head.next)
