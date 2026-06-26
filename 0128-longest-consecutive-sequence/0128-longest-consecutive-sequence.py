@@ -1,12 +1,12 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         result = 0
-        store = set(nums)
+        m = defaultdict(int)
 
-        for s in store:
-            if (s - 1) not in store:
-                streak = 1
-                while s + streak in store:
-                    streak += 1
-                result = max(result, streak)
+        for num in nums:
+            if not m[num]:
+                m[num] = m[num - 1] + m[num + 1] + 1
+                m[num - m[num - 1]] = m[num]
+                m[num + m[num + 1]] = m[num]
+                result = max(result, m[num])
         return result
