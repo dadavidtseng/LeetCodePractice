@@ -4,35 +4,24 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        result = ListNode()
-        temp_result = result
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
+        dummy = ListNode()
+        current = dummy
         carry = 0
 
         while l1 is not None or l2 is not None or carry != 0:
-            temp1 = 0
-            temp2 = 0
-            total = 0
-            
-            if l1 is not None:
-                temp1 = l1.val
-                l1 = l1.next
-            
-            if l2 is not None:
-                temp2 = l2.val
-                l2 = l2.next
+            v1 = l1.val if l1 is not None else 0
+            v2 = l2.val if l2 is not None else 0
 
-            total = temp1 + temp2 + carry
-            
-            if total >= 10:
-                carry = 1
-                total -= 10
-            else:
-                carry = 0
+            total = v1 + v2 + carry
+            carry, total = divmod(total, 10)
 
-            temp_result.val = total
-            if l1 is not None or l2 is not None or carry != 0:
-                temp_result.next = ListNode()
-                temp_result = temp_result.next
-            
-        return result
+            current.next = ListNode(total)
+            current = current.next
+
+            l1 = l1.next if l1 is not None else None
+            l2 = l2.next if l2 is not None else None
+
+        return dummy.next
