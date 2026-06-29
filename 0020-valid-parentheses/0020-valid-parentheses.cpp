@@ -1,23 +1,33 @@
 class Solution {
 public:
     bool isValid(string s) {
-        while (true) {
-            size_t pos;
+        // Construct the pair for look up
+        unordered_map<char, char> pairs{{'(', ')'}, {'[', ']'}, {'{', '}'}};
 
-            // Remove the brackets if it's in the string
+        stack<char> stack;
 
-            if ((pos = s.find("()")) != string::npos ||
-                (pos = s.find("[]")) != string::npos ||
-                (pos = s.find("{}")) != string::npos) {
-                s.erase(pos, 2);
+        // Iterate through s
+        for (const char& c : s) {
+            // Push pairs[c](right bracket) into stack when encountering c(left
+            // bracket)
+            if (pairs.contains(c)) {
+                stack.push(pairs[c]);
             }
-            // Exit the loop when we couldn't find anything anymore
+            // When encountering right bracket,
+            // check if we've stored in stack before
             else {
-                break;
+                // Return false if the stack is empty or not the right bracket
+                if (stack.empty() || stack.top() != c) {
+                    return false;
+                }
+
+                // We found a match, close the brackets by removing them from
+                // the stack
+                stack.pop();
             }
         }
 
         // Return true if everything has been removed
-        return s.empty();
+        return stack.empty();
     }
 };
