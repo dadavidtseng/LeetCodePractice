@@ -2,7 +2,6 @@ class Solution:
     def isValid(self, s: str) -> bool:
         # Construct the pair for look up
         pairs = {"(": ")", "[": "]", "{": "}"}
-
         stack = []
 
         # Iterate through s
