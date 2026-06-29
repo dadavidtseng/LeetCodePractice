@@ -11,7 +11,7 @@ class Solution:
         curr = head
 
         for i in range(k - 1):
-            if curr.next is None and i < k - 1:
+            if curr.next is None:
                 return head
             curr = curr.next
 
