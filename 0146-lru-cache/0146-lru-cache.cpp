@@ -1,74 +1,38 @@
-class Node {
-public:
-    explicit Node(const int _key, const int _value)
-        : key(_key), value(_value) {}
-
-    int key = 0;
-    int value = 0;
-    Node* prev = nullptr;
-    Node* next = nullptr;
-};
-
 class LRUCache {
 public:
-    explicit LRUCache(const int _capacity) {
-        capacity = _capacity;
-        left = new Node(0, 0);
-        right = new Node(0, 0);
-
-        left->next = right;
-        right->prev = left;
-    }
+    explicit LRUCache(const int capacity) { this->capacity = capacity; }
 
     int get(const int key) {
-        if (cache.contains(key)) {
-            _remove(cache[key]);
-            _add_to_head(cache[key]);
-            return cache[key]->value;
+        if (!cache.contains(key)) {
+            return -1;
         }
 
-        return -1;
+        order.erase(cache[key].second);
+        order.push_back(key);
+        cache[key].second = --order.end();
+        return cache[key].first;
     }
 
     void put(const int key, const int value) {
         if (cache.contains(key)) {
-            Node* node = cache[key];
-            node->value = value;
-            _remove(node);
-            _add_to_head(node);
-            return;
+            order.erase(cache[key].second);
+        } else if (std::cmp_equal(cache.size(), capacity)) {
+            const int lru = order.front();
+            order.pop_front();
+            cache.erase(lru);
         }
-
-        Node* newNode = new Node(key, value);
-        cache[key] = newNode;
-        _add_to_head(newNode);
-
-        if (std::cmp_greater(cache.size(), capacity)) {
-            Node* lru = left->next;
-            _remove(lru);
-            cache.erase(lru->key);
-            delete lru;
-        }
+        order.push_back(key);
+        cache[key] = {value, --order.end()};
     }
 
-private:
-    void _remove(const Node* node) {
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-    }
-
-    void _add_to_head(Node* node) {
-        Node* _right = right;
-        Node* prev_right = right->prev;
-
-        node->prev = prev_right;
-        node->next = right;
-        _right->prev = node;
-        prev_right->next = node;
-    }
-
+    unordered_map<int, pair<int, list<int>::iterator>> cache;
+    list<int> order;
     int capacity;
-    unordered_map<int, Node*> cache;
-    Node* left = nullptr;
-    Node* right = nullptr;
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
