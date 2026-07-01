@@ -18,7 +18,8 @@ class Solution:
         self, digits: str, idx: int, curr: str, digit_to_alpha: dict, result: List[str]
     ):
         if len(curr) == len(digits):
-            result.append(curr)
+            if curr:
+                result.append(curr)
             return
 
         for v in digit_to_alpha[digits[idx]]:
