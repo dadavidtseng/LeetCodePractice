@@ -51,6 +51,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0704-binary-search](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0746-min-cost-climbing-stairs) |
 | [0875-koko-eating-bananas](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0875-koko-eating-bananas) |
 ## Hash Table
 |  |
@@ -217,6 +218,7 @@
 | [0131-palindrome-partitioning](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0131-palindrome-partitioning) |
 | [0338-counting-bits](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0338-counting-bits) |
 | [0435-non-overlapping-intervals](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0435-non-overlapping-intervals) |
+| [0746-min-cost-climbing-stairs](https://github.com/dadavidtseng/LeetCodePractice/tree/master/0746-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
